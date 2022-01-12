@@ -1,0 +1,30 @@
+,path
+r_script,C:/PROGRA~1/R/R-4.0.5/bin/Rscript.exe
+dataset_home,DATASET/Raw
+vulmovement_moodle,DATASET/Raw/Vulnerability tracking data
+vulmovement_phpmyadmin,DATASET/Raw/Vulnerability tracking data
+vuls_moodle,DATASET/Raw/Vulnerability data
+vuls_phpmyadmin,DATASET/Raw/Vulnerability data
+mainbranch_moodle,DATASET/Raw/Release and branch
+mainbranch_phpmyadmin,DATASET/Raw/Release and branch
+filemetrics_moodle,DATASET/Raw/Source code metrics
+filemetrics_phpmyadmin,DATASET/Raw/Source code metrics
+tokens_moodle,DATASET/Raw/Moodle Text mining token data
+tokens_phpmyadmin,DATASET/Raw/PHPMyAdmin Text mining token data
+my_home,PROJECT DATA
+my_metrics_r_moodle,PROJECT DATA/Moodle/File Metrics R with no vuln labels
+my_metrics_r_phpmyadmin,PROJECT DATA/PHPMyAdmin/File Metrics R with no vuln labels
+my_metrics_csv_moodle,PROJECT DATA/Moodle/File Metrics CSV
+my_metrics_csv_phpmyadmin,PROJECT DATA/PHPMyAdmin/File Metrics CSV
+my_text_arff_moodle,PROJECT DATA/Moodle/Tokens ARFF
+my_text_arff_phpmyadmin,PROJECT DATA/PHPMyAdmin/Tokens ARFF
+my_text_csv_moodle,PROJECT DATA/Moodle/Tokens CSV
+my_text_csv_phpmyadmin,PROJECT DATA/PHPMyAdmin/Tokens CSV
+my_allY_phpmyadmin,PROJECT DATA/PHPMyAdmin/ResultsAllY CSV
+my_allY_moodle,PROJECT DATA/Moodle/ResultsAllY CSV
+my_experiments_csv_file,experiments.csv
+my_dataset_moodle_file,dataset_moodle.csv
+my_dataset_phpmyadmin_file,dataset_phpmyadmin.csv
+my_replication_csv_file,replication.csv
+my_real_metrics_csv_moodle,PROJECT DATA/Moodle/Real Label Metrics CSV
+my_real_metrics_csv_phpmyadmin,PROJECT DATA/PHPMyAdmin/Real Label Metrics CSV
