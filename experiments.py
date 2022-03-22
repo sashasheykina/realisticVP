@@ -1,4 +1,4 @@
-from classes import Dataset, Validation, Approach, Balancing, DatasetReleases, ExperimentSetting, Cluster
+from classes import Dataset, Validation, Approach, Balancing, DatasetReleases, ExperimentSetting, Model, Run
 import utils
 import os
 from natsort import natsorted
@@ -24,14 +24,15 @@ def choose(enumeration):
 def set_experiment(i):
     utils.print_space()
     print("Set experiment " + str(i))
+    run = choose(Run)
     dataset = choose(Dataset)
-    model = choose(Cluster)
+    model = choose(Model)
     validation = choose(Validation)
     approach = choose(Approach)
     if validation == "real_labelling":
         releases = choose_releases(dataset)
     balancing = choose(Balancing)
-    setting = ExperimentSetting(dataset, approach, validation, balancing, model)
+    setting = ExperimentSetting(dataset, approach, validation, balancing, model, run)
     utils.print_space()
     return setting, releases
 
@@ -90,17 +91,17 @@ def want_further_experiment():
 
 def generate_all_experiments_settings():
     all_experiments_list = []
-    datasets = ["moodle","phpmyadmin"]
+    datasets = ["phpmyadmin"]
     approaches = ["metrics"]
-    balancing = ["none"]
-    cluster = ["kmeans"]
+    balancing = ["oversampling"]
+    cluster = ["random_forest"]
 
     # release-based
     for d in datasets:
         for a in approaches:
             for b in balancing:
                 for c in cluster:
-                    setting = ExperimentSetting(d, a, "real_labelling", b, c)
+                    setting = ExperimentSetting(d, a, "real_labelling", b, c, "run_timespan")
                     all_releases = generate_all_releases(d)
                     for releases in all_releases:
                         all_experiments_list.append((setting, releases))
@@ -121,7 +122,7 @@ def generate_all_releases(dataset):
     num_files = len(all_df_file_names)
     print("numero file nel dataset: "+dataset + " "+str(num_files))
 
-    selection = 3
+    selection = 2
     while selection < num_files-1:
         training_set_releases = []
         selection = selection + 1
@@ -130,11 +131,12 @@ def generate_all_releases(dataset):
         print("Test release: " + test_set_release)
 
         # retrieve training releases
-        for i in range(test_set_release_index):
+        for i in range(3):
             training_set_releases.append(all_df_file_names[test_set_release_index - i - 1][:-4])
         print("Training releases: " + str(training_set_releases))
 
-        all_releases.append(DatasetReleases(test_set_release_index, training_set_releases, test_set_release))
+        all_releases.append(DatasetReleases(len(training_set_releases), training_set_releases, test_set_release))
+
     return all_releases
 
 

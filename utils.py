@@ -9,7 +9,7 @@ def get_path(key):
 
 def welcome():
     print("Welcome! This program is part of the thesis project:")
-    print("\"Unsupervised Learning on Software Vulnerability Prediction Models\"")
+    print("\"Software vulnerability prediction with real-world labelling\"")
     print("developed by Alexandra Sheykina in November and December 2021")
 
 

@@ -60,7 +60,7 @@
 58,auth/shibboleth/index.php,0,0,0
 59,auth/shibboleth/lib.php,0,0,0
 60,auth/shibboleth/shib-protected.php,0,0,0
-61,backup/backuplib.php,0,0,1
+61,backup/backuplib.php,0,0,0
 62,backup/backup.php,0,0,0
 63,backup/backup_scheduled.php,0,0,0
 64,backup/bb/restore_bb.php,0,0,0
@@ -69,7 +69,7 @@
 67,backup/db/postgres7.php,0,0,0
 68,backup/lib.php,0,0,0
 69,backup/log.php,0,0,0
-70,backup/restorelib.php,1,0,1
+70,backup/restorelib.php,1,0,0
 71,backup/restore.php,0,0,0
 72,backup/try.php,0,0,0
 73,backup/version.php,0,0,0
@@ -138,7 +138,7 @@
 136,blocks/social_activities/db/postgres7.php,0,0,0
 137,blocks/version.php,0,0,0
 138,calendar/event.php,0,0,0
-139,calendar/lib.php,0,0,1
+139,calendar/lib.php,0,0,0
 140,calendar/overlib.cfg.php,0,0,0
 141,calendar/preferences.php,0,0,0
 142,calendar/set.php,0,0,0
@@ -164,7 +164,7 @@
 162,course/index.php,0,0,0
 163,course/info.php,0,0,0
 164,course/jumpto.php,1,0,0
-165,course/lib.php,0,0,1
+165,course/lib.php,0,0,0
 166,course/loggraph.php,0,0,0
 167,course/loginas.php,0,0,0
 168,course/loglive.php,0,0,0
@@ -219,7 +219,7 @@
 217,filter/tidy/filter.php,0,0,0
 218,grade/exceptions.php,0,0,0
 219,grade/index.php,0,0,0
-220,grade/lib.php,0,0,1
+220,grade/lib.php,0,0,0
 221,help.php,0,0,0
 222,index.php,0,0,0
 223,install.php,0,0,0
@@ -2757,7 +2757,7 @@
 2755,lang/zh_tw_utf8/workshop.php,0,0,0
 2756,lib/adminlib.php,0,0,0
 2757,lib/blocklib.php,0,0,0
-2758,lib/datalib.php,0,0,1
+2758,lib/datalib.php,0,0,0
 2759,lib/db/mysql.php,0,0,0
 2760,lib/db/postgres7.php,0,0,0
 2761,lib/defaults.php,0,0,0
@@ -2782,12 +2782,12 @@
 2780,lib/filelib.php,0,0,0
 2781,lib/filterlib.php,0,0,0
 2782,lib/gdlib.php,0,0,0
-2783,lib/graphlib.php,0,0,1
+2783,lib/graphlib.php,0,0,0
 2784,lib/html2text.php,0,0,0
 2785,lib/javascript-mod.php,0,0,0
 2786,lib/javascript.php,0,0,0
 2787,lib/languages.php,0,0,0
-2788,lib/moodlelib.php,0,0,1
+2788,lib/moodlelib.php,0,0,0
 2789,lib/olson.php,0,0,0
 2790,lib/pagelib.php,0,0,0
 2791,lib/rsslib.php,0,0,0
@@ -2800,7 +2800,7 @@
 2798,lib/textlib.class.php,0,0,0
 2799,lib/uploadlib.php,0,0,0
 2800,lib/validateurlsyntax.php,0,0,0
-2801,lib/weblib.php,1,0,1
+2801,lib/weblib.php,1,0,0
 2802,lib/wiki_to_markdown.php,0,0,0
 2803,lib/womenslib.php,0,0,0
 2804,login/change_password.php,0,0,0
@@ -2822,7 +2822,7 @@
 2820,mod/assignment/db/postgres7.php,0,0,0
 2821,mod/assignment/details.php,0,0,0
 2822,mod/assignment/index.php,0,0,0
-2823,mod/assignment/lib.php,0,0,1
+2823,mod/assignment/lib.php,0,0,0
 2824,mod/assignment/restorelib.php,0,0,0
 2825,mod/assignment/styles.php,0,0,0
 2826,mod/assignment/submissions.php,0,0,0
@@ -2884,7 +2884,7 @@
 2882,mod/exercise/db/postgres7.php,0,0,0
 2883,mod/exercise/index.php,0,0,0
 2884,mod/exercise/lib.php,0,0,0
-2885,mod/exercise/locallib.php,0,0,1
+2885,mod/exercise/locallib.php,0,0,0
 2886,mod/exercise/restorelib.php,0,0,0
 2887,mod/exercise/submissions.php,0,0,0
 2888,mod/exercise/upload.php,0,0,0
@@ -2896,7 +2896,7 @@
 2894,mod/forum/db/postgres7.php,0,0,0
 2895,mod/forum/discuss.php,0,0,0
 2896,mod/forum/index.php,0,0,0
-2897,mod/forum/lib.php,0,0,1
+2897,mod/forum/lib.php,0,0,0
 2898,mod/forum/markposts.php,0,0,0
 2899,mod/forum/post.php,0,0,0
 2900,mod/forum/rate.php,0,0,0
@@ -2934,7 +2934,7 @@
 2932,mod/glossary/formats/TEMPLATE/TEMPLATE_format.php,0,0,0
 2933,mod/glossary/import.php,0,0,0
 2934,mod/glossary/index.php,0,0,0
-2935,mod/glossary/lib.php,0,0,1
+2935,mod/glossary/lib.php,0,0,0
 2936,mod/glossary/print.php,0,0,0
 2937,mod/glossary/rate.php,0,0,0
 2938,mod/glossary/report.php,0,0,0
@@ -2951,7 +2951,7 @@
 2949,mod/hotpot/db/update_to_v2.php,0,0,0
 2950,mod/hotpot/defaults.php,0,0,0
 2951,mod/hotpot/index.php,0,0,0
-2952,mod/hotpot/lib.php,0,0,1
+2952,mod/hotpot/lib.php,0,0,0
 2953,mod/hotpot/report/default.php,0,0,0
 2954,mod/hotpot/report/fullstat/report.php,0,0,0
 2955,mod/hotpot/report/overview/report.php,0,0,0
@@ -3009,7 +3009,7 @@
 3007,mod/lesson/restorelib.php,0,0,0
 3008,mod/lesson/styles.php,0,0,0
 3009,mod/lesson/version.php,0,0,0
-3010,mod/lesson/view.php,1,0,1
+3010,mod/lesson/view.php,1,0,0
 3011,mod/quiz/attempt_close_js.php,0,0,0
 3012,mod/quiz/attempt.php,0,0,0
 3013,mod/quiz/backuplib.php,0,0,0
@@ -3042,7 +3042,7 @@
 3040,mod/quiz/jsclock.php,0,0,0
 3041,mod/quiz/jstimer.php,0,0,0
 3042,mod/quiz/lib.php,0,0,0
-3043,mod/quiz/locallib.php,0,0,1
+3043,mod/quiz/locallib.php,0,0,0
 3044,mod/quiz/pagelib.php,0,0,0
 3045,mod/quiz/preview.php,0,0,0
 3046,mod/quiz/protect_js.php,0,0,0
@@ -3069,7 +3069,7 @@
 3067,mod/quiz/questiontypes/randomsamatch/questiontype.php,0,0,0
 3068,mod/quiz/questiontypes/rqp/editquestion.php,0,0,0
 3069,mod/quiz/questiontypes/rqp/lib.php,0,0,0
-3070,mod/quiz/questiontypes/rqp/nusoap.php,0,0,1
+3070,mod/quiz/questiontypes/rqp/nusoap.php,0,0,0
 3071,mod/quiz/questiontypes/rqp/questiontype.php,0,0,0
 3072,mod/quiz/questiontypes/rqp/remote.php,0,0,0
 3073,mod/quiz/questiontypes/rqp/rqp.php,0,0,0
@@ -3085,8 +3085,8 @@
 3083,mod/quiz/report/overview/report.php,1,0,0
 3084,mod/quiz/report.php,0,0,0
 3085,mod/quiz/report/regrade/report.php,0,0,0
-3086,mod/quiz/restorelib.php,0,0,1
-3087,mod/quiz/restorelibpre15.php,0,0,1
+3086,mod/quiz/restorelib.php,0,0,0
+3087,mod/quiz/restorelibpre15.php,0,0,0
 3088,mod/quiz/review.php,0,0,0
 3089,mod/quiz/reviewquestion.php,0,0,0
 3090,mod/quiz/styles.php,0,0,0
@@ -3121,7 +3121,7 @@
 3119,mod/scorm/db/mysql.php,0,0,0
 3120,mod/scorm/db/postgres7.php,0,0,0
 3121,mod/scorm/index.php,0,0,0
-3122,mod/scorm/lib.php,0,0,1
+3122,mod/scorm/lib.php,0,0,0
 3123,mod/scorm/loadSCO.php,0,0,0
 3124,mod/scorm/playscorm.php,0,0,0
 3125,mod/scorm/report.php,0,0,0
@@ -3149,7 +3149,7 @@
 3147,mod/wiki/backuplib.php,0,0,0
 3148,mod/wiki/db/mysql.php,0,0,0
 3149,mod/wiki/db/postgres7.php,0,0,0
-3150,mod/wiki/ewiki/ewiki.php,0,0,1
+3150,mod/wiki/ewiki/ewiki.php,0,0,0
 3151,mod/wiki/ewiki/fragments/auth.php,0,0,0
 3152,mod/wiki/ewiki/fragments/binary.php,0,0,0
 3153,mod/wiki/ewiki/fragments/funcs.inc,0,0,0
@@ -3181,21 +3181,21 @@
 3179,mod/wiki/ewiki/plugins/spages.php,0,0,0
 3180,mod/wiki/filter.php,0,0,0
 3181,mod/wiki/index.php,0,0,0
-3182,mod/wiki/lib.php,0,0,1
+3182,mod/wiki/lib.php,0,0,0
 3183,mod/wiki/restorelib.php,0,0,0
 3184,mod/wiki/test.php,0,0,0
 3185,mod/wiki/version.php,0,0,0
 3186,mod/wiki/view.php,1,0,0
 3187,mod/wiki/wiki_styles.php,0,0,0
-3188,mod/workshop/assessments.php,0,0,1
+3188,mod/workshop/assessments.php,0,0,0
 3189,mod/workshop/assess.php,0,0,0
 3190,mod/workshop/backuplib.php,0,0,0
 3191,mod/workshop/db/mysql.php,0,0,0
 3192,mod/workshop/db/oci8po.php,0,0,0
 3193,mod/workshop/db/postgres7.php,0,0,0
 3194,mod/workshop/index.php,0,0,0
-3195,mod/workshop/lib.php,0,0,1
-3196,mod/workshop/locallib.php,0,0,1
+3195,mod/workshop/lib.php,0,0,0
+3196,mod/workshop/locallib.php,0,0,0
 3197,mod/workshop/restorelib.php,0,0,0
 3198,mod/workshop/styles.php,0,0,0
 3199,mod/workshop/submissions.php,0,0,0

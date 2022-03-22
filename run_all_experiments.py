@@ -1,16 +1,16 @@
 import utils
 from experiments import set_experiment, want_further_experiment, generate_all_experiments_settings
-from classes import Log
+from classes import LogSpan
 from implementation import execute_experiment
 import pandas
 import os
 
 utils.welcome()
 
-output_file = utils.get_path("my_experiments_csv_file")
+output_file = utils.get_path("my_experiments_csv_span_file")
 if not os.path.exists(output_file):
     # prepare csv file for experiments output
-    header = Log.header()
+    header = LogSpan.header()
     pandas.DataFrame(header).to_csv(output_file, index=False)
 
 experiments_to_run = []

@@ -17,7 +17,7 @@
 15,course/enrol.php,0,0,0
 16,course/grades.php,0,0,0
 17,course/index.php,0,0,0
-18,course/lib.php,0,0,1
+18,course/lib.php,0,0,0
 19,course/loggraph.php,0,0,0
 20,course/loginas.php,0,0,0
 21,course/loglive.php,0,0,0
@@ -88,10 +88,10 @@
 86,lib/db/mysql.php,0,0,0
 87,lib/db/postgres7.php,0,0,0
 88,lib/defaults.php,0,0,0
-89,lib/graphlib.php,0,0,1
+89,lib/graphlib.php,0,0,0
 90,lib/javascript.php,0,0,0
 91,lib/languages.php,0,0,0
-92,lib/moodlelib.php,0,0,1
+92,lib/moodlelib.php,0,0,0
 93,lib/psxlsgen.php,0,0,0
 94,lib/setup.php,0,0,0
 95,lib/weblib.php,0,0,0
@@ -119,7 +119,7 @@
 117,mod/forum/delete.php,0,0,0
 118,mod/forum/discuss.php,0,0,0
 119,mod/forum/index.php,0,0,0
-120,mod/forum/lib.php,0,0,1
+120,mod/forum/lib.php,0,0,0
 121,mod/forum/post.php,1,0,0
 122,mod/forum/rate.php,0,0,0
 123,mod/forum/report.php,0,0,0
@@ -140,7 +140,7 @@
 138,mod/quiz/db/mysql.php,0,0,0
 139,mod/quiz/edit.php,0,0,0
 140,mod/quiz/index.php,0,0,0
-141,mod/quiz/lib.php,0,0,1
+141,mod/quiz/lib.php,0,0,0
 142,mod/quiz/question.php,0,0,0
 143,mod/quiz/report.php,0,0,0
 144,mod/quiz/version.php,0,0,0

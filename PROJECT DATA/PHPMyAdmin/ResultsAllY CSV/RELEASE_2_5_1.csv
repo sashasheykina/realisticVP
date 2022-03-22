@@ -10,7 +10,7 @@
 8,db_details_importdocsql.php3,0,0,0
 9,db_details_links.php3,0,0,0
 10,db_details.php3,0,0,0
-11,db_details_qbe.php3,0,0,1
+11,db_details_qbe.php3,0,0,0
 12,db_details_structure.php3,1,0,0
 13,db_printview.php3,0,0,0
 14,db_search.php3,0,0,0
@@ -110,14 +110,14 @@
 108,lang/ukrainian-windows-1251.inc.php3,0,0,0
 109,ldi_check.php3,0,0,0
 110,ldi_table.php3,0,0,0
-111,left.php3,0,0,1
+111,left.php3,0,0,0
 112,libraries/auth/config.auth.lib.php3,0,0,0
 113,libraries/auth/cookie.auth.lib.php3,1,0,0
 114,libraries/auth/http.auth.lib.php3,0,0,0
 115,libraries/bookmark.lib.php3,0,0,0
-116,libraries/build_dump.lib.php3,0,0,1
+116,libraries/build_dump.lib.php3,0,0,0
 117,libraries/charset_conversion.lib.php3,0,0,0
-118,libraries/common.lib.php3,1,0,1
+118,libraries/common.lib.php3,1,0,0
 119,libraries/config_import.lib.php3,0,0,0
 120,libraries/db_config.lib.php3,0,0,0
 121,libraries/dbg/profiling.php3,0,0,0
@@ -126,7 +126,7 @@
 124,libraries/defines.lib.php3,0,0,0
 125,libraries/defines_php.lib.php3,0,0,0
 126,libraries/display_export.lib.php3,1,0,0
-127,libraries/display_tbl.lib.php3,0,0,1
+127,libraries/display_tbl.lib.php3,0,0,0
 128,libraries/get_foreign.lib.php3,0,0,0
 129,libraries/grab_globals.lib.php3,0,0,0
 130,libraries/header_http.inc.php3,0,0,0
@@ -139,7 +139,7 @@
 137,libraries/relation.lib.php3,0,0,0
 138,libraries/select_lang.lib.php3,1,0,0
 139,libraries/sqlparser.data.php3,0,0,0
-140,libraries/sqlparser.lib.php3,1,0,1
+140,libraries/sqlparser.lib.php3,1,0,0
 141,libraries/sqlvalidator.class.php3,0,0,0
 142,libraries/sqlvalidator.lib.php3,0,0,0
 143,libraries/string.lib.php3,0,0,0
@@ -160,7 +160,7 @@
 158,main.php3,0,0,0
 159,mult_submits.inc.php3,0,0,0
 160,pdf_pages.php3,0,0,0
-161,pdf_schema.php3,1,0,1
+161,pdf_schema.php3,1,0,0
 162,phpinfo.php3,0,0,0
 163,queryframe.php3,0,0,0
 164,querywindow.php3,0,0,0
@@ -170,7 +170,7 @@
 168,server_common.inc.php3,0,0,0
 169,server_databases.php3,1,0,0
 170,server_links.inc.php3,0,0,0
-171,server_privileges.php3,1,0,1
+171,server_privileges.php3,1,0,0
 172,server_processlist.php3,0,0,0
 173,server_status.php3,0,0,0
 174,server_variables.php3,0,0,0

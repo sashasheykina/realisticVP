@@ -14,7 +14,7 @@
 12,course/editsection.php,0,0,0
 13,course/enrol.php,0,0,0
 14,course/index.php,0,0,0
-15,course/lib.php,0,0,1
+15,course/lib.php,0,0,0
 16,course/loggraph.php,0,0,0
 17,course/loginas.php,0,0,0
 18,course/loglive.php,0,0,0
@@ -65,10 +65,10 @@
 63,lang/pt_br/survey.php,0,0,0
 64,lib/countries.php,0,0,0
 65,lib/defaults.php,0,0,0
-66,lib/graphlib.php,0,0,1
+66,lib/graphlib.php,0,0,0
 67,lib/javascript.php,0,0,0
 68,lib/languages.php,0,0,0
-69,lib/moodlelib.php,0,0,1
+69,lib/moodlelib.php,0,0,0
 70,lib/psxlsgen.php,0,0,0
 71,lib/setup.php,0,0,0
 72,lib/weblib.php,0,0,0
@@ -93,7 +93,7 @@
 91,mod/forum/delete.php,0,0,0
 92,mod/forum/discuss.php,0,0,0
 93,mod/forum/index.php,0,0,0
-94,mod/forum/lib.php,0,0,1
+94,mod/forum/lib.php,0,0,0
 95,mod/forum/post.php,1,0,0
 96,mod/forum/rate.php,0,0,0
 97,mod/forum/report.php,0,0,0

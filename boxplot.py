@@ -3,29 +3,58 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+my_colors = ["#3498db",         #"#9b59b6",
+             "#2ecc71", "#006a4e"]
 sns.set_theme(style="ticks", palette="pastel")
-data_model = 'experiments_kmeans_cmeans.csv'
+data_model = 'experiments_timespan.csv'
 # read data from url as pandas dataframe
 df_model = pd.read_csv(data_model)
-# subset the gapminder data frame for rows with year values 1952 and 2007
-my_mcc = df_model[df_model['model'].isin(["kmeans","cmeans"])]
-sns.boxplot(y='mcc', x='balancing',
-                 data=my_mcc,
-                 palette=["m", "g"], #palette="colorblind"
-                 hue='model')
+
+#precision
+my_pr = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='precision',
+                 data=my_pr, palette="Set2",#palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
 sns.despine(offset=10, trim=True)
 plt.show()
-my_recall = df_model[df_model['model'].isin(["kmeans","cmeans"])]
-sns.boxplot(y='recall', x='balancing',
-                 data=my_recall,
-                 palette=["m", "g"],
-                 hue='model')
+'''
+#mcc
+my_mcc = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='mcc',
+                 data=my_mcc, #palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
 sns.despine(offset=10, trim=True)
 plt.show()
-my_acc = df_model[df_model['model'].isin(["kmeans","cmeans"])]
-sns.boxplot(y='accuracy', x='balancing',
-                 data=my_acc,
-                 palette=["m", "g"],
-                 hue='model')
+
+#recall
+my_recall = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='recall',
+                 data=my_recall, #palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
 sns.despine(offset=10, trim=True)
 plt.show()
+
+#accuracy
+my_acc = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='accuracy',
+                 data=my_acc, #palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
+sns.despine(offset=10, trim=True)
+plt.show()
+
+#F1-score
+my_f1 = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='f1_score',
+                 data=my_f1, #palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
+sns.despine(offset=10, trim=True)
+plt.show()
+
+#inspection_rate
+my_ir = df_model[df_model['dataset'].isin(["moodle"])]
+sns.boxplot(x='balancing', y='inspection_rate',
+                 data=my_ir, #palette="colorblind",palette=["m", "g"],palette="Set2"
+                 hue='dataset')
+sns.despine(offset=10, trim=True)
+plt.show()
+'''

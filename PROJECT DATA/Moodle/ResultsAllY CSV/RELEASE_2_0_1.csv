@@ -258,7 +258,7 @@
 256,auth/imap/db/install.php,0,0,0
 257,auth/imap/lang/en/auth_imap.php,0,0,0
 258,auth/imap/version.php,0,0,0
-259,auth/ldap/auth.php,0,0,1
+259,auth/ldap/auth.php,0,0,0
 260,auth/ldap/cli/sync_users.php,0,0,0
 261,auth/ldap/db/install.php,0,0,0
 262,auth/ldap/lang/en/auth_ldap.php,0,0,0
@@ -352,7 +352,7 @@
 350,backup/moodle2/restore_root_task.class.php,0,0,0
 351,backup/moodle2/restore_section_task.class.php,0,0,0
 352,backup/moodle2/restore_settingslib.php,0,0,0
-353,backup/moodle2/restore_stepslib.php,1,0,1
+353,backup/moodle2/restore_stepslib.php,1,0,0
 354,backup/moodle2/restore_subplugin.class.php,0,0,0
 355,backup/restorefile_form.php,0,0,0
 356,backup/restorefile.php,0,0,0
@@ -651,7 +651,7 @@
 649,calendar/export_execute.php,0,0,0
 650,calendar/export.php,0,0,0
 651,calendar/index.php,0,0,0
-652,calendar/lib.php,0,0,1
+652,calendar/lib.php,0,0,0
 653,calendar/preferences_form.php,0,0,0
 654,calendar/preferences.php,0,0,0
 655,calendar/renderer.php,0,0,0
@@ -700,7 +700,7 @@
 698,course/index.php,0,0,0
 699,course/info.php,0,0,0
 700,course/jumpto.php,0,0,0
-701,course/lib.php,0,0,1
+701,course/lib.php,0,0,0
 702,course/loginas.php,0,0,0
 703,course/modedit.php,0,0,0
 704,course/mod.php,0,0,0
@@ -1023,7 +1023,7 @@
 1021,grade/import/xml/lib.php,0,0,0
 1022,grade/import/xml/version.php,0,0,0
 1023,grade/index.php,0,0,0
-1024,grade/lib.php,0,0,1
+1024,grade/lib.php,0,0,0
 1025,grade/querylib.php,0,0,0
 1026,grade/report/grader/ajax_callbacks.php,0,0,0
 1027,grade/report/grader/db/access.php,0,0,0
@@ -1472,8 +1472,8 @@
 1470,lang/en/userkey.php,0,0,0
 1471,lang/en/webservice.php,0,0,0
 1472,lang/en/xmldb.php,0,0,0
-1473,lib/accesslib.php,0,0,1
-1474,lib/adminlib.php,0,0,1
+1473,lib/accesslib.php,0,0,0
+1474,lib/adminlib.php,0,0,0
 1475,lib/ajax/ajaxlib.php,0,0,0
 1476,lib/ajax/getnavbranch.php,0,0,0
 1477,lib/ajax/setuserpref.php,0,0,0
@@ -1510,7 +1510,7 @@
 1508,lib/db/messages.php,0,0,0
 1509,lib/db/services.php,0,0,0
 1510,lib/db/upgradelib.php,0,0,0
-1511,lib/db/upgrade.php,0,0,1
+1511,lib/db/upgrade.php,0,0,0
 1512,lib/ddl/database_manager.php,0,0,0
 1513,lib/ddllib.php,0,0,0
 1514,lib/ddl/mssql_sql_generator.php,0,0,0
@@ -1519,7 +1519,7 @@
 1517,lib/ddl/postgres_sql_generator.php,0,0,0
 1518,lib/ddl/sql_generator.php,0,0,0
 1519,lib/ddl/sqlite_sql_generator.php,0,0,0
-1520,lib/deprecatedlib.php,0,0,1
+1520,lib/deprecatedlib.php,0,0,0
 1521,lib/dml/database_column_info.php,0,0,0
 1522,lib/dmllib.php,0,0,0
 1523,lib/dml/moodle_database.php,0,0,0
@@ -1573,7 +1573,7 @@
 1571,lib/filebrowser/file_info.php,0,0,0
 1572,lib/filebrowser/file_info_stored.php,0,0,0
 1573,lib/filebrowser/virtual_root_file.php,0,0,0
-1574,lib/filelib.php,0,0,1
+1574,lib/filelib.php,0,0,0
 1575,lib/filestorage/file_archive.php,0,0,0
 1576,lib/filestorage/file_exceptions.php,0,0,0
 1577,lib/filestorage/file_packer.php,0,0,0
@@ -1612,7 +1612,7 @@
 1610,lib/form/select.php,0,0,0
 1611,lib/form/selectwithlink.php,0,0,0
 1612,lib/form/selectyesno.php,0,0,0
-1613,lib/formslib.php,1,0,1
+1613,lib/formslib.php,1,0,0
 1614,lib/form/static.php,0,0,0
 1615,lib/form/submitlink.php,0,0,0
 1616,lib/form/submit.php,0,0,0
@@ -1630,7 +1630,7 @@
 1628,lib/grade/grade_outcome.php,0,0,0
 1629,lib/grade/grade_scale.php,0,0,0
 1630,lib/gradelib.php,0,0,0
-1631,lib/graphlib.php,0,0,1
+1631,lib/graphlib.php,0,0,0
 1632,lib/grouplib.php,0,0,0
 1633,lib/html2text.php,0,0,0
 1634,lib/installlib.php,0,0,0
@@ -1641,8 +1641,8 @@
 1639,lib/mathslib.php,0,0,0
 1640,lib/memcached.class.php,0,0,0
 1641,lib/messagelib.php,0,0,0
-1642,lib/moodlelib.php,0,0,1
-1643,lib/navigationlib.php,0,0,1
+1642,lib/moodlelib.php,0,0,0
+1643,lib/navigationlib.php,0,0,0
 1644,lib/oauthlib.php,0,0,0
 1645,lib/odslib.class.php,0,0,0
 1646,lib/olson.php,0,0,0
@@ -1650,7 +1650,7 @@
 1648,lib/outputcomponents.php,0,0,0
 1649,lib/outputfactories.php,0,0,0
 1650,lib/outputlib.php,0,0,0
-1651,lib/outputrenderers.php,0,0,1
+1651,lib/outputrenderers.php,0,0,0
 1652,lib/outputrequirementslib.php,0,0,0
 1653,lib/pagelib.php,0,0,0
 1654,lib/pdflib.php,0,0,0
@@ -1665,7 +1665,7 @@
 1663,lib/portfoliolib.php,0,0,0
 1664,lib/portfolio/plugin.php,0,0,0
 1665,lib/profilerlib.php,0,0,0
-1666,lib/questionlib.php,0,0,1
+1666,lib/questionlib.php,0,0,0
 1667,lib/recaptchalib.php,0,0,0
 1668,lib/resourcelib.php,0,0,0
 1669,lib/rsslib.php,0,0,0
@@ -1683,7 +1683,7 @@
 1681,lib/uploadlib.php,0,0,0
 1682,lib/validateurlsyntax.php,0,0,0
 1683,lib/webdavlib.php,0,0,0
-1684,lib/weblib.php,1,0,1
+1684,lib/weblib.php,1,0,0
 1685,lib/wiki_to_markdown.php,0,0,0
 1686,lib/womenslib.php,0,0,0
 1687,lib/xmldb/xmldb_constants.php,0,0,0
@@ -1708,7 +1708,7 @@
 1706,message/discussion.php,0,0,0
 1707,message/edit.php,0,0,0
 1708,message/index.php,0,0,0
-1709,message/lib.php,0,0,1
+1709,message/lib.php,0,0,0
 1710,message/output/email/db/install.php,0,0,0
 1711,message/output/email/db/upgrade.php,0,0,0
 1712,message/output/email/lang/en/message_email.php,0,0,0
@@ -1758,7 +1758,7 @@
 1756,mod/assignment/grade.php,0,0,0
 1757,mod/assignment/index.php,0,0,0
 1758,mod/assignment/lang/en/assignment.php,0,0,0
-1759,mod/assignment/lib.php,0,0,1
+1759,mod/assignment/lib.php,0,0,0
 1760,mod/assignment/locallib.php,0,0,0
 1761,mod/assignment/mod_form.php,0,0,0
 1762,mod/assignment/renderer.php,0,0,0
@@ -1862,7 +1862,7 @@
 1860,mod/data/index.php,0,0,0
 1861,mod/data/js.php,0,0,0
 1862,mod/data/lang/en/data.php,0,0,0
-1863,mod/data/lib.php,0,0,1
+1863,mod/data/lib.php,0,0,0
 1864,mod/data/locallib.php,0,0,0
 1865,mod/data/mod_form.php,0,0,0
 1866,mod/data/preset_form.php,0,0,0
@@ -1924,7 +1924,7 @@
 1922,mod/feedback/item/textfield/lib.php,0,0,0
 1923,mod/feedback/item/textfield/textfield_form.php,0,0,0
 1924,mod/feedback/lang/en/feedback.php,0,0,0
-1925,mod/feedback/lib.php,0,0,1
+1925,mod/feedback/lib.php,0,0,0
 1926,mod/feedback/mapcourse.php,0,0,0
 1927,mod/feedback/mod_form.php,0,0,0
 1928,mod/feedback/print.php,0,0,0
@@ -1971,7 +1971,7 @@
 1969,mod/forum/discuss.php,0,0,0
 1970,mod/forum/index.php,0,0,0
 1971,mod/forum/lang/en/forum.php,0,0,0
-1972,mod/forum/lib.php,0,0,1
+1972,mod/forum/lib.php,0,0,0
 1973,mod/forum/locallib.php,0,0,0
 1974,mod/forum/markposts.php,0,0,0
 1975,mod/forum/mod_form.php,0,0,0
@@ -2016,7 +2016,7 @@
 2014,mod/glossary/import.php,0,0,0
 2015,mod/glossary/index.php,0,0,0
 2016,mod/glossary/lang/en/glossary.php,0,0,0
-2017,mod/glossary/lib.php,0,0,1
+2017,mod/glossary/lib.php,0,0,0
 2018,mod/glossary/locallib.php,0,0,0
 2019,mod/glossary/mod_form.php,0,0,0
 2020,mod/glossary/print.php,0,0,0
@@ -2082,7 +2082,7 @@
 2080,mod/lesson/lang/en/lesson.php,0,0,0
 2081,mod/lesson/lesson.php,0,0,0
 2082,mod/lesson/lib.php,0,0,0
-2083,mod/lesson/locallib.php,0,0,1
+2083,mod/lesson/locallib.php,0,0,0
 2084,mod/lesson/mediafile.php,0,0,0
 2085,mod/lesson/mod_form.php,0,0,0
 2086,mod/lesson/pagetypes/branchtable.php,0,0,0
@@ -2217,7 +2217,7 @@
 2215,mod/scorm/datamodels/scorm_13.js.php,0,0,0
 2216,mod/scorm/datamodels/scorm_13lib.php,0,0,0
 2217,mod/scorm/datamodels/scormlib.php,0,0,0
-2218,mod/scorm/datamodels/sequencinglib.php,0,0,1
+2218,mod/scorm/datamodels/sequencinglib.php,0,0,0
 2219,mod/scorm/db/access.php,0,0,0
 2220,mod/scorm/db/log.php,0,0,0
 2221,mod/scorm/db/upgradelib.php,0,0,0
@@ -2285,7 +2285,7 @@
 2283,mod/wiki/db/access.php,0,0,0
 2284,mod/wiki/db/install.php,0,0,0
 2285,mod/wiki/db/migration/lib.php,0,0,0
-2286,mod/wiki/db/migration/wiki/ewiki/ewiki.php,0,0,1
+2286,mod/wiki/db/migration/wiki/ewiki/ewiki.php,0,0,0
 2287,mod/wiki/db/migration/wiki/ewikimoodlelib.php,0,0,0
 2288,mod/wiki/db/migration/wiki/ewiki/plugins/moodle/moodle_rescue_html.php,0,0,0
 2289,mod/wiki/db/upgradelib.php,0,0,0
@@ -2310,7 +2310,7 @@
 2308,mod/wiki/map.php,0,0,0
 2309,mod/wiki/mod_form.php,0,0,0
 2310,mod/wiki/overridelocks.php,0,0,0
-2311,mod/wiki/pagelib.php,1,0,1
+2311,mod/wiki/pagelib.php,1,0,0
 2312,mod/wiki/parser/markups/creole.php,0,0,0
 2313,mod/wiki/parser/markups/html.php,0,0,0
 2314,mod/wiki/parser/markups/nwiki.php,0,0,0
@@ -2409,7 +2409,7 @@
 2407,mod/workshop/index.php,0,0,0
 2408,mod/workshop/lang/en/workshop.php,0,0,0
 2409,mod/workshop/lib.php,0,0,0
-2410,mod/workshop/locallib.php,0,0,1
+2410,mod/workshop/locallib.php,0,0,0
 2411,mod/workshop/mod_form.php,0,0,0
 2412,mod/workshop/renderer.php,0,0,0
 2413,mod/workshop/settings.php,0,0,0
@@ -2511,7 +2511,7 @@
 2509,question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php,0,0,0
 2510,question/type/calculatedmulti/lib.php,0,0,0
 2511,question/type/calculatedmulti/questiontype.php,0,0,0
-2512,question/type/calculated/questiontype.php,0,0,1
+2512,question/type/calculated/questiontype.php,0,0,0
 2513,question/type/calculatedsimple/backup/moodle2/backup_qtype_calculatedsimple_plugin.class.php,0,0,0
 2514,question/type/calculatedsimple/backup/moodle2/restore_qtype_calculatedsimple_plugin.class.php,0,0,0
 2515,question/type/calculatedsimple/edit_calculatedsimple_form.php,0,0,0
