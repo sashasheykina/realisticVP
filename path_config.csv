@@ -23,6 +23,7 @@ my_text_csv_phpmyadmin,PROJECT DATA/PHPMyAdmin/Tokens CSV
 my_allY_phpmyadmin,PROJECT DATA/PHPMyAdmin/ResultsAllY CSV
 my_allY_moodle,PROJECT DATA/Moodle/ResultsAllY CSV
 my_experiments_csv_file,experiments.csv
+my_experiments_csv_span_file,experiments_timespan.csv
 my_dataset_moodle_file,dataset_moodle.csv
 my_dataset_phpmyadmin_file,dataset_phpmyadmin.csv
 my_replication_csv_file,replication.csv

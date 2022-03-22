@@ -10,7 +10,7 @@
 8,db_details_importdocsql.php3,0,0,0
 9,db_details_links.php3,0,0,0
 10,db_details.php3,0,0,0
-11,db_details_qbe.php3,0,0,1
+11,db_details_qbe.php3,0,0,0
 12,db_details_structure.php3,1,0,0
 13,db_printview.php3,0,0,0
 14,db_search.php3,0,0,0
@@ -111,14 +111,14 @@
 109,lang/ukrainian-windows-1251.inc.php3,0,0,0
 110,ldi_check.php3,0,0,0
 111,ldi_table.php3,0,0,0
-112,left.php3,0,0,1
+112,left.php3,0,0,0
 113,libraries/auth/config.auth.lib.php3,0,0,0
 114,libraries/auth/cookie.auth.lib.php3,1,0,0
 115,libraries/auth/http.auth.lib.php3,0,0,0
 116,libraries/blowfish.php3,0,0,0
 117,libraries/bookmark.lib.php3,0,0,0
 118,libraries/charset_conversion.lib.php3,0,0,0
-119,libraries/common.lib.php3,1,0,1
+119,libraries/common.lib.php3,1,0,0
 120,libraries/config_import.lib.php3,0,0,0
 121,libraries/db_config.lib.php3,0,0,0
 122,libraries/dbg/profiling.php3,0,0,0
@@ -127,7 +127,7 @@
 125,libraries/defines.lib.php3,0,0,0
 126,libraries/defines_php.lib.php3,0,0,0
 127,libraries/display_export.lib.php3,1,0,0
-128,libraries/display_tbl.lib.php3,0,0,1
+128,libraries/display_tbl.lib.php3,0,0,0
 129,libraries/export/csv.php3,0,0,0
 130,libraries/export/latex.php3,0,0,0
 131,libraries/export/sql.php3,0,0,0
@@ -146,7 +146,7 @@
 144,libraries/relation.lib.php3,0,0,0
 145,libraries/select_lang.lib.php3,1,0,0
 146,libraries/sqlparser.data.php3,0,0,0
-147,libraries/sqlparser.lib.php3,1,0,1
+147,libraries/sqlparser.lib.php3,1,0,0
 148,libraries/sqlvalidator.class.php3,0,0,0
 149,libraries/sqlvalidator.lib.php3,0,0,0
 150,libraries/string.lib.php3,0,0,0
@@ -167,7 +167,7 @@
 165,main.php3,0,0,0
 166,mult_submits.inc.php3,0,0,0
 167,pdf_pages.php3,0,0,0
-168,pdf_schema.php3,1,0,1
+168,pdf_schema.php3,1,0,0
 169,phpinfo.php3,0,0,0
 170,queryframe.php3,0,0,0
 171,querywindow.php3,0,0,0
@@ -178,7 +178,7 @@
 176,server_databases.php3,1,0,0
 177,server_export.php3,0,0,0
 178,server_links.inc.php3,0,0,0
-179,server_privileges.php3,1,0,1
+179,server_privileges.php3,1,0,0
 180,server_processlist.php3,0,0,0
 181,server_status.php3,0,0,0
 182,server_variables.php3,0,0,0

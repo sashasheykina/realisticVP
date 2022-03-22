@@ -8,7 +8,7 @@
 6,db_details_importdocsql.php3,0,0,0
 7,db_details_links.php3,0,0,0
 8,db_details.php3,0,0,0
-9,db_details_qbe.php3,0,0,1
+9,db_details_qbe.php3,0,0,0
 10,db_details_structure.php3,1,0,0
 11,db_printview.php3,0,0,0
 12,db_search.php3,0,0,0
@@ -115,13 +115,13 @@
 113,libraries/bookmark.lib.php3,0,0,0
 114,libraries/build_dump.lib.php3,0,0,0
 115,libraries/charset_conversion.lib.php3,0,0,0
-116,libraries/common.lib.php3,1,0,1
+116,libraries/common.lib.php3,1,0,0
 117,libraries/config_import.lib.php3,0,0,0
 118,libraries/db_config.lib.php3,0,0,0
 119,libraries/db_table_exists.lib.php3,0,0,0
 120,libraries/defines.lib.php3,0,0,0
 121,libraries/defines_php.lib.php3,0,0,0
-122,libraries/display_tbl.lib.php3,1,0,1
+122,libraries/display_tbl.lib.php3,1,0,0
 123,libraries/grab_globals.lib.php3,0,0,0
 124,libraries/ip_allow_deny.lib.php3,1,0,0
 125,libraries/kanji-encoding.lib.php3,0,0,0
@@ -134,12 +134,12 @@
 132,libraries/sqlvalidator.class.php3,0,0,0
 133,libraries/sqlvalidator.lib.php3,0,0,0
 134,libraries/string.lib.php3,0,0,0
-135,libraries/xpath/XPath.class.php,0,0,1
+135,libraries/xpath/XPath.class.php,0,0,0
 136,libraries/zip.lib.php3,0,0,0
 137,main.php3,0,0,0
 138,mult_submits.inc.php3,0,0,0
 139,pdf_pages.php3,0,0,0
-140,pdf_schema.php3,1,0,1
+140,pdf_schema.php3,1,0,0
 141,phpinfo.php3,0,0,0
 142,read_dump.php3,1,0,0
 143,scripts/check_lang.php3,0,0,0
@@ -147,7 +147,7 @@
 145,sql.php3,1,0,0
 146,tbl_addfield.php3,0,0,0
 147,tbl_alter.php3,0,0,0
-148,tbl_change.php3,0,0,1
+148,tbl_change.php3,0,0,0
 149,tbl_create.php3,0,0,0
 150,tbl_dump.php3,0,0,0
 151,tbl_indexes.php3,0,0,0
@@ -167,5 +167,5 @@
 165,tbl_rename.php3,0,0,0
 166,tbl_replace.php3,0,0,0
 167,tbl_select.php3,0,0,0
-168,user_details.php3,0,0,1
+168,user_details.php3,0,0,0
 169,user_password.php3,0,0,0

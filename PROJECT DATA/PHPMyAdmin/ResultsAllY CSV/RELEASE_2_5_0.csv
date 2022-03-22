@@ -10,7 +10,7 @@
 8,db_details_importdocsql.php3,0,0,0
 9,db_details_links.php3,0,0,0
 10,db_details.php3,0,0,0
-11,db_details_qbe.php3,0,0,1
+11,db_details_qbe.php3,0,0,0
 12,db_details_structure.php3,1,0,0
 13,db_printview.php3,0,0,0
 14,db_search.php3,0,0,0
@@ -119,7 +119,7 @@
 117,libraries/bookmark.lib.php3,0,0,0
 118,libraries/build_dump.lib.php3,0,0,0
 119,libraries/charset_conversion.lib.php3,0,0,0
-120,libraries/common.lib.php3,1,0,1
+120,libraries/common.lib.php3,1,0,0
 121,libraries/config_import.lib.php3,0,0,0
 122,libraries/db_config.lib.php3,0,0,0
 123,libraries/dbg/profiling.php3,0,0,0
@@ -128,7 +128,7 @@
 126,libraries/defines.lib.php3,0,0,0
 127,libraries/defines_php.lib.php3,0,0,0
 128,libraries/display_export.lib.php3,1,0,0
-129,libraries/display_tbl.lib.php3,0,0,1
+129,libraries/display_tbl.lib.php3,0,0,0
 130,libraries/get_foreign.lib.php3,0,0,0
 131,libraries/grab_globals.lib.php3,0,0,0
 132,libraries/header_http.inc.php3,0,0,0
@@ -141,7 +141,7 @@
 139,libraries/relation.lib.php3,0,0,0
 140,libraries/select_lang.lib.php3,1,0,0
 141,libraries/sqlparser.data.php3,0,0,0
-142,libraries/sqlparser.lib.php3,1,0,1
+142,libraries/sqlparser.lib.php3,1,0,0
 143,libraries/sqlvalidator.class.php3,0,0,0
 144,libraries/sqlvalidator.lib.php3,0,0,0
 145,libraries/string.lib.php3,0,0,0
@@ -162,7 +162,7 @@
 160,main.php3,0,0,0
 161,mult_submits.inc.php3,0,0,0
 162,pdf_pages.php3,0,0,0
-163,pdf_schema.php3,1,0,1
+163,pdf_schema.php3,1,0,0
 164,phpinfo.php3,0,0,0
 165,queryframe.php3,0,0,0
 166,querywindow.php3,0,0,0
@@ -172,7 +172,7 @@
 170,server_common.inc.php3,0,0,0
 171,server_databases.php3,1,0,0
 172,server_links.inc.php3,0,0,0
-173,server_privileges.php3,1,0,1
+173,server_privileges.php3,1,0,0
 174,server_processlist.php3,0,0,0
 175,server_status.php3,0,0,0
 176,server_variables.php3,0,0,0

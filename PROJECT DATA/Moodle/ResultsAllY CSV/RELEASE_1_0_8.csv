@@ -24,7 +24,7 @@
 22,course/grade.php,0,0,0
 23,course/grades.php,0,0,0
 24,course/index.php,0,0,0
-25,course/lib.php,0,0,1
+25,course/lib.php,0,0,0
 26,course/loggraph.php,0,0,0
 27,course/loginas.php,0,0,0
 28,course/loglive.php,0,0,0
@@ -222,13 +222,13 @@
 220,lib/db/mysql.php,0,0,0
 221,lib/db/postgres7.php,0,0,0
 222,lib/defaults.php,0,0,0
-223,lib/graphlib.php,0,0,1
+223,lib/graphlib.php,0,0,0
 224,lib/javascript.php,0,0,0
 225,lib/languages.php,0,0,0
-226,lib/moodlelib.php,0,0,1
+226,lib/moodlelib.php,0,0,0
 227,lib/psxlsgen.php,0,0,0
 228,lib/setup.php,1,0,0
-229,lib/weblib.php,0,0,1
+229,lib/weblib.php,0,0,0
 230,login/change_password.php,0,0,0
 231,login/confirm.php,0,0,0
 232,login/forgot_password.php,0,0,0
@@ -256,7 +256,7 @@
 254,mod/forum/delete.php,0,0,0
 255,mod/forum/discuss.php,0,0,0
 256,mod/forum/index.php,0,0,0
-257,mod/forum/lib.php,0,0,1
+257,mod/forum/lib.php,0,0,0
 258,mod/forum/post.php,1,0,0
 259,mod/forum/rate.php,0,0,0
 260,mod/forum/report.php,0,0,0
@@ -279,7 +279,7 @@
 277,mod/quiz/db/postgres7.php,0,0,0
 278,mod/quiz/edit.php,0,0,0
 279,mod/quiz/index.php,0,0,0
-280,mod/quiz/lib.php,0,0,1
+280,mod/quiz/lib.php,0,0,0
 281,mod/quiz/question.php,0,0,0
 282,mod/quiz/report.php,0,0,0
 283,mod/quiz/version.php,0,0,0

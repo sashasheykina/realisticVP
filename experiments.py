@@ -1,4 +1,4 @@
-from classes import Dataset, Validation, Approach, Balancing, DatasetReleases, ExperimentSetting, Cluster
+from classes import Dataset, Validation, Approach, Balancing, DatasetReleases, ExperimentSetting, Model, Run
 import utils
 import os
 from natsort import natsorted
@@ -24,14 +24,15 @@ def choose(enumeration):
 def set_experiment(i):
     utils.print_space()
     print("Set experiment " + str(i))
-    dataset = choose(Dataset)
-    model = choose(Cluster)
+    run = "run_timespan"#choose(Run)
+    dataset = "phpmyadmin"#choose(Dataset)
+    model = "random_forest"#choose(Model)
     validation = choose(Validation)
-    approach = choose(Approach)
+    approach = "metrics"#choose(Approach)
     if validation == "real_labelling":
         releases = choose_releases(dataset)
-    balancing = choose(Balancing)
-    setting = ExperimentSetting(dataset, approach, validation, balancing, model)
+    balancing = "oversampling"#choose(Balancing)
+    setting = ExperimentSetting(dataset, approach, validation, balancing, model, run)
     utils.print_space()
     return setting, releases
 
@@ -90,17 +91,17 @@ def want_further_experiment():
 
 def generate_all_experiments_settings():
     all_experiments_list = []
-    datasets = ["moodle","phpmyadmin"]
+    datasets = ["moodle"]
     approaches = ["metrics"]
-    balancing = ["none"]
-    cluster = ["kmeans"]
+    balancing = ["none", "undersampling", "oversampling"]
+    cluster = ["kmeans", "random_forest"]
 
     # release-based
     for d in datasets:
         for a in approaches:
             for b in balancing:
                 for c in cluster:
-                    setting = ExperimentSetting(d, a, "real_labelling", b, c)
+                    setting = ExperimentSetting(d, a, "real_labelling", b, c, "run_real")
                     all_releases = generate_all_releases(d)
                     for releases in all_releases:
                         all_experiments_list.append((setting, releases))

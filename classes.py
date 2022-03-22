@@ -35,12 +35,13 @@ class DatasetReleases:
 
 
 class ExperimentSetting:
-    def __init__(self, dataset, approach, validation, balancing, model):
+    def __init__(self, dataset, approach, validation, balancing, model, run):
         self.dataset = dataset
         self.approach = approach
         self.validation = validation
         self.balancing = balancing
         self.model = model
+        self.run = run
 
     def __str__(self):
         string = "ExperimentSetting: ["
@@ -48,7 +49,8 @@ class ExperimentSetting:
         string = string + "approach: " + self.approach + ", "
         string = string + "validation: " + self.validation + ", "
         string = string + "balancing: " + self.balancing + ", "
-        string = string + "model: " + self.model + "]"
+        string = string + "model: " + self.model + ", "
+        string = string + "run: " + self.run + "]"
         return string
 
 
@@ -100,6 +102,42 @@ class Log:
                 "precision": [0], "recall": [0], "accuracy": [0], "inspection_rate": [0], "f1_score": [0], "mcc": [0]}
 
 
+
+class LogSpan:
+    @staticmethod
+    def build(experiment_setting, dataset_releases, performance, timespan, perc_vuln):
+        # dd/mm/YY H:M:S
+        now_string = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        return {"date_time": [now_string], "dataset": [experiment_setting.dataset],
+                "approach": [experiment_setting.approach], "validation": [experiment_setting.validation],
+                "balancing": [experiment_setting.balancing], "classifier": [experiment_setting.model],
+                "num_training_set_releases": [dataset_releases.num_training_set_releases],
+                "test_set_release": [dataset_releases.test_set_release],
+                "time_span": [timespan],
+                "fit_time": [performance.fit_time], "precision": [performance.precision],
+                "recall": [performance.recall], "accuracy": [performance.accuracy],
+                "inspection_rate": [performance.inspection_rate], "f1_score": [performance.f1_score],
+                "mcc": [performance.mcc], "vulnerability": [perc_vuln]}
+
+    @staticmethod
+    def header():
+        return {"date_time": [], "dataset": [], "approach": [], "validation": [], "balancing": [], "model": [],
+                "num_training_set_releases": [], "test_set_release": [], "trimester": [],
+                "fit_time": [], "precision": [], "recall": [], "accuracy": [], "inspection_rate": [],
+                "f1_score": [], "mcc": [], "%vulnerability": []}
+
+    @staticmethod
+    def dummy():
+        return {"date_time": ["x"], "dataset": ["x"], "approach": ["x"], "validation": ["x"], "balancing": ["x"],
+                "model": ["x"], "num_training_set_releases": [0], "test_set_release": ["x"], "fit_time": [0],
+                "time_span": [0], "precision": [0], "recall": [0], "accuracy": [0], "inspection_rate": [0], "f1_score": [0], "mcc": [0]}
+
+
+class Run(IntEnum):
+    run_real = 1
+    run_timespan = 2
+
+
 class Dataset(IntEnum):
     phpmyadmin = 1
     moodle = 2
@@ -109,9 +147,9 @@ class Validation(IntEnum):
     real_labelling = 1
 
 
-class Cluster(IntEnum):
+class Model(IntEnum):
     kmeans = 1
-    #cmeans = 2
+    random_forest = 2
 
 
 class Approach(IntEnum):
