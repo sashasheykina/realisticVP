@@ -1605,7 +1605,7 @@
 1603,lib/form/radio.php,0,0,0
 1604,lib/form/recaptcha.php,0,0,0
 1605,lib/form/searchableselector.php,0,0,0
-1606,lib/form/selectgroups.php,0,0,0
+1606,lib/form/selectgroups.php,0,0,1
 1607,lib/form/select.php,0,0,0
 1608,lib/form/selectwithlink.php,0,0,0
 1609,lib/form/selectyesno.php,0,0,0

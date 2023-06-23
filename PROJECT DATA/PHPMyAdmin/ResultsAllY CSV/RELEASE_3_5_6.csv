@@ -128,7 +128,7 @@
 126,libraries/gis/pma_gis_visualization.php,0,0,0
 127,libraries/gis_visualization.lib.php,0,0,0
 128,libraries/grab_globals.lib.php,0,0,0
-129,libraries/header_http.inc.php,0,0,0
+129,libraries/header_http.inc.php,0,0,1
 130,libraries/header.inc.php,0,0,0
 131,libraries/header_meta_style.inc.php,0,0,0
 132,libraries/header_printview.inc.php,0,0,0
@@ -306,14 +306,14 @@
 304,themes/original/css/theme_left.css.php,0,0,0
 305,themes/original/css/theme_print.css.php,0,0,0
 306,themes/original/css/theme_right.css.php,0,0,0
-307,themes/original/info.inc.php,0,0,0
+307,themes/original/info.inc.php,0,0,1
 308,themes/original/layout.inc.php,0,0,0
 309,themes/original/sprites.lib.php,0,0,0
 310,themes.php,0,0,0
 311,themes/pmahomme/css/theme_left.css.php,0,0,0
 312,themes/pmahomme/css/theme_print.css.php,0,0,0
 313,themes/pmahomme/css/theme_right.css.php,0,0,0
-314,themes/pmahomme/info.inc.php,0,0,0
+314,themes/pmahomme/info.inc.php,0,0,1
 315,themes/pmahomme/layout.inc.php,0,0,0
 316,themes/pmahomme/sprites.lib.php,0,0,0
 317,themes/sprites.css.php,0,0,0

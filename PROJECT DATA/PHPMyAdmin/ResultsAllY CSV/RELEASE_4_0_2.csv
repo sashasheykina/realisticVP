@@ -375,7 +375,7 @@
 373,tbl_zoom_select.php,0,0,0
 374,themes/original/css/common.css.php,0,0,0
 375,themes/original/css/navigation.css.php,0,0,0
-376,themes/original/info.inc.php,0,0,0
+376,themes/original/info.inc.php,0,0,1
 377,themes/original/layout.inc.php,0,0,0
 378,themes/original/sprites.lib.php,0,0,0
 379,themes.php,0,0,0
@@ -388,7 +388,7 @@
 386,themes/pmahomme/css/pmd.css.php,0,0,0
 387,themes/pmahomme/css/resizable-menu.css.php,0,0,0
 388,themes/pmahomme/css/rte.css.php,0,0,0
-389,themes/pmahomme/info.inc.php,0,0,0
+389,themes/pmahomme/info.inc.php,0,0,1
 390,themes/pmahomme/layout.inc.php,0,0,0
 391,themes/pmahomme/sprites.lib.php,0,0,0
 392,themes/sprites.css.php,0,0,0

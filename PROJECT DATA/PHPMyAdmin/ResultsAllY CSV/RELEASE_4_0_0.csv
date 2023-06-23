@@ -23,7 +23,7 @@
 21,examples/signon-script.php,0,0,0
 22,export.php,0,0,0
 23,file_echo.php,0,0,0
-24,gis_data_editor.php,0,0,0
+24,gis_data_editor.php,0,0,1
 25,import.php,1,0,0
 26,import_status.php,0,0,0
 27,index.php,0,0,0
@@ -106,7 +106,7 @@
 104,libraries/Index.class.php,0,0,0
 105,libraries/index.lib.php,0,0,0
 106,libraries/information_schema_relations.lib.php,0,0,0
-107,libraries/insert_edit.lib.php,0,0,1
+107,libraries/insert_edit.lib.php,0,0,0
 108,libraries/ip_allow_deny.lib.php,0,0,0
 109,libraries/js_escape.lib.php,0,0,0
 110,libraries/kanji-encoding.lib.php,0,0,0
@@ -249,7 +249,7 @@
 247,libraries/rte/rte_footer.lib.php,0,0,0
 248,libraries/rte/rte_list.lib.php,0,0,0
 249,libraries/rte/rte_main.inc.php,0,0,0
-250,libraries/rte/rte_routines.lib.php,0,0,1
+250,libraries/rte/rte_routines.lib.php,0,0,0
 251,libraries/rte/rte_triggers.lib.php,0,0,0
 252,libraries/rte/rte_words.lib.php,0,0,0
 253,libraries/sanitizing.lib.php,0,0,0
@@ -354,7 +354,7 @@
 352,tbl_addfield.php,0,0,0
 353,tbl_change.php,0,0,0
 354,tbl_chart.php,0,0,0
-355,tbl_create.php,0,0,0
+355,tbl_create.php,0,0,1
 356,tbl_export.php,0,0,0
 357,tbl_get_field.php,0,0,0
 358,tbl_gis_visualization.php,0,0,0
@@ -374,7 +374,7 @@
 372,tbl_zoom_select.php,0,0,0
 373,themes/original/css/common.css.php,0,0,0
 374,themes/original/css/navigation.css.php,0,0,0
-375,themes/original/info.inc.php,0,0,0
+375,themes/original/info.inc.php,0,0,1
 376,themes/original/layout.inc.php,0,0,0
 377,themes/original/sprites.lib.php,0,0,0
 378,themes.php,0,0,0
@@ -387,7 +387,7 @@
 385,themes/pmahomme/css/pmd.css.php,0,0,0
 386,themes/pmahomme/css/resizable-menu.css.php,0,0,0
 387,themes/pmahomme/css/rte.css.php,0,0,0
-388,themes/pmahomme/info.inc.php,0,0,0
+388,themes/pmahomme/info.inc.php,0,0,1
 389,themes/pmahomme/layout.inc.php,0,0,0
 390,themes/pmahomme/sprites.lib.php,0,0,0
 391,themes/sprites.css.php,0,0,0
