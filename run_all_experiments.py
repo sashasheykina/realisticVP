@@ -22,7 +22,7 @@ print(all_experiments[0][1])
 
 for i in range(0, n):
     log = execute_experiment(i+1, all_experiments[i])
-    pandas.DataFrame(log).to_csv(output_file, mode='a', index=False, header=False)
+    #pandas.DataFrame(log).to_csv(output_file, mode='a', index=False, header=False)
 
 utils.print_space()
 print("All done!")
