@@ -3,21 +3,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
+#https://practicaldatascience.co.uk/data-science/how-to-visualise-data-using-boxplots-in-seaborn
 #data_model = 'experiments_timespan_moodle.csv'
-data_model = 'experiments_timespan_phpmyadmin.csv'
-
+data_model = 'experiments_timespan_1trimester.csv'
 
 # read data from url as pandas dataframe
 df_model = pd.read_csv(data_model)
-
+fig, ax1 = plt.subplots(figsize=(7,5))
 #precision
+sns.set_theme(style="ticks", palette="pastel")
 sns.boxplot(y='precision', x='balancing',
                  data=df_model,
-                 palette="Set2", #palette="colorblind", palette="Set2",["m", "g"]
-                 hue="dataset"
+                 ax=ax1,
+                 palette=["m", "g"],#palette="husl", #"bright", palette="colorblind", palette="Set2","husl", ["m", "g"], "muted", "deep","pastel"
+                 hue="dataset",
+                 width=0.7
                 )
-sns.despine(offset=10, trim=True)
+
 plt.show()
 
 '''
